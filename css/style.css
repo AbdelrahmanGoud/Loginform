@@ -1,0 +1,63 @@
+/* start style login page and signin page*/
+.mainbody, .homepage, .homepage .showName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainbody, .homepage {
+  width: 100%;
+  height: 100vh;
+  background-color: #24353f;
+  font-style: italic;
+}
+
+.mainbody .container, .homepage .showName, nav {
+  -webkit-box-shadow: 5px 5px 25px black;
+          box-shadow: 5px 5px 25px black;
+}
+
+.mainbody .container {
+  width: 65%;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.mainbody .form-control {
+  background-color: #24353f !important;
+  color: white !important;
+}
+
+.mainbody .btn {
+  background-color: transparent;
+}
+
+.mainbody .btn:hover {
+  background-color: #17a2b8;
+}
+
+.mainbody .qus {
+  color: white;
+}
+
+.mainbody .qus a {
+  color: white !important;
+}
+
+/* end style login page and signin page*/
+/* start style home page */
+.homepage .showName {
+  width: 40%;
+  height: 40%;
+}
+
+nav {
+  background-color: #24353f !important;
+}
+/*# sourceMappingURL=style.css.map */
